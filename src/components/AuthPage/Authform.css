@@ -1,0 +1,101 @@
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.85);
+  z-index: 2000;
+}
+
+/* TRUE CENTERING — WORKS ON ALL SCREENS */
+.modal-box {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  background: rgba(255, 255, 255, 0.45);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.35);
+
+  width: min(90vw, 360px);
+  padding: 20px;
+
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+/* ===== Title ===== */
+.modal-box h2 {
+  margin-bottom: 14px;
+  color: black;
+  font-family: 'Korvich Slam';
+  text-align: center;
+  font-size: 22px;
+}
+
+/* ===== Form ===== */
+.modal-box form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+/* ===== Inputs ===== */
+.modal-box input {
+  background-color: rgba(177, 177, 177, 0.55);
+  padding: 12px;
+  font-size: 16px;           /* prevents mobile zoom */
+  border-radius: 14px;
+  border: none;
+  outline: none;
+}
+
+.modal-box input::placeholder {
+  font-family: 'Philosopher';
+  color: black;
+}
+
+/* ===== Button ===== */
+.modal-box button {
+  padding: 12px;
+  font-size: 16px;
+  background-color: rgba(234, 6, 6, 0.75);
+  border-radius: 14px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.modal-box button:hover {
+  background-color: rgba(234, 6, 6, 0.9);
+}
+
+/* ===== Close Button ===== */
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 12px;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: rgba(234, 6, 6, 0.85);
+  border: none;
+  font-size: 22px;
+  color: white;
+  cursor: pointer;
+}
+
+/* ===== Mobile Adjustments ===== */
+@media (max-width: 768px) {
+  .modal-box {
+    padding: 16px;
+    width: 75%;
+}
+  .modal-box h2 {
+    font-size: 20px;
+  }
+}

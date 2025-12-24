@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'Korvich Slam';
+    src: url('../assets/fonts/korvich-slam.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Lobster';
+    src: url('../assets/fonts/Lobster-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Oleo Script';
+    src: url('../assets/fonts/OleoScript-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Philosopher';
+    src: url('../assets/fonts/Philosopher-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Quizlo';
+    src: url('../assets/fonts/Quizlo DEMO.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Quizlo Demo BF';
+    src: url('../assets/fonts/Quizlo-DEMO-BF68b930ec7eb9d.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Schabo Condensed';
+    src: url('../assets/fonts/SCHABO-Condensed.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
