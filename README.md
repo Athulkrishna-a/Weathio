@@ -1,18 +1,42 @@
-# React + Vite
+# WEATHIO 🌤️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**WEATHIO** is a modern, modular React application designed to provide comprehensive weather insights. The project follows a clean component-based architecture, making it scalable and easy to maintain.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📂 Project Structure
 
-## React Compiler
+The application is organized into a feature-based folder structure:
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+* **`assets/`**: Images, logos, and SVGs used throughout the app.
+* **`components/`**: Reusable UI blocks:
+    * `AuthPage/`: Components for user Login and Signup.
+    * `HomeLayout/`: The main dashboard widgets (Clock, Weather Cards, etc.).
+    * `Navigations/`: The primary navigation bar and menu logic.
+* **`pages/`**: High-level views (Home, About, Vision).
+* **`routers/`**: Centralized routing configuration using React Router.
+* **`Styles/`**: Global CSS and modular stylesheets.
 
-Note: This will impact Vite dev & build performances.
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* **Framework:** [React.js](https://reactjs.org/)
+* **Routing:** [React Router](https://reactrouter.com/)
+* **Icons & Assets:** Custom SVG and PNG assets.
+* **Styling:** CSS3 with a focus on modular layouts.
+
+---
+
+## 🚀 Getting Started
+
+### 1. Prerequisites
+Ensure you have [Node.js](https://nodejs.org/) installed on your machine.
+
+### 2. Installation
+Clone the repository and install the necessary dependencies:
+
+```bash
+git clone [https://github.com/your-username/weathio.git](https://github.com/your-username/weathio.git)
+cd weathio
+npm install
