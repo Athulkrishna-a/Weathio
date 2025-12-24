@@ -40,3 +40,12 @@ Clone the repository and install the necessary dependencies:
 git clone [https://github.com/your-username/weathio.git](https://github.com/your-username/weathio.git)
 cd weathio
 npm install
+```
+###3. Running the App
+Start the development server:
+```bash
+npm run dev
+```
+
+
+
