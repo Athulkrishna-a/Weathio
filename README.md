@@ -41,7 +41,7 @@ git clone [https://github.com/your-username/weathio.git](https://github.com/your
 cd weathio
 npm install
 ```
-###3. Running the App
+### 3. Running the App
 Start the development server:
 ```bash
 npm run dev
